@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #f8ceec; */
+    background-image: url("https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg");
+    background-attachment: fixed;
+    background-position:top-center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-weight: bold;
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-main {
+    width: 50vh;
+    margin:100px auto;    
+    background-color: transparent;
+    border-radius:20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border: 3px solid teal;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255,255,255,0.9);
+}
+
+
+.weather-body {
+     margin-top:5px;
+    display: none;
+    color:teal;
+    padding: 20px;
+    line-height: 2.5rem;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.9);
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 4px 8px white;
+    
+}
+
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
